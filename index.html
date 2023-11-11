@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action.php">
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+    
+
+    <h2>Select your class</h2>
+    <label for="101">
+    <input type="radio" value="calss XI" name="class" id="101">class XI
+    </label>
+    <label for="102">
+    <input type="radio" value="calss XII" name="class" id="102">class XII
+    </label>
+    <!-- label //input var tag detat -->
+    <br>
+    <br>
+    <h2>Select your subject</h2>
+    <label for="math">
+        <input type="checkbox" value="math" name="Subject" id="1">math
+    </label>
+    <label for="physics">
+        <input type="checkbox" value="physics" name="Subject" id="1">physics
+    </label>
+    <label for="biology">
+        <input type="checkbox" value="biology" name="Subject" id="1">biology
+    </label>
+    <br><br>
+     <h1>Select your city</h1>   
+    <select name="city" >
+        <option value="delhi">delhi</option>
+        <option value="pune">pume</option>
+        <option value="mumbai">mumbai</option>
+    </select>
+    
+    
+    <br><br>
+    <textarea name="feedback" id="101" cols="30" rows="2" placeholder="please give your feedback"></textarea>
+    <br><br>
+    <input type="submit" value="submit">
+
+    <h2>Student Registration Form</h2>
+
+        <!-- Text Input for Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email Input for Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Date of Birth Input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <!-- Radio Buttons for Gender -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <!-- Dropdown (Select) for Course -->
+        <p>Course:</p>
+        <select name="course" required>
+            <option value="math">Mathematics</option>
+            <option value="english">English</option>
+            <option value="science">Science</option>
+        </select>
+
+        <br><br>
+        <!-- Checkbox for Agreement -->
+
+        
+    <fieldset>
+        <legend>Favorite programming language:</legend>
+        <input type="radio" id="java" name="programming" value="java">
+        <label for="java">Java</label>
+        <input type="radio" id="python" name="programming" value="python">
+        <label for="python">Python</label>
+        <input type="radio" id="javascript" name="programming" value="javascript">
+        <label for="javascript">JavaScript</label>
+    </fieldset>
+            
+    <br><br>
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+</form>
+</body>
+</html>
